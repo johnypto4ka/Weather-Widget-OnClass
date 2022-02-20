@@ -1,0 +1,26 @@
+{
+  "name": "weather-widget-onclass",
+  "version": "1.0.0",
+  "description": "widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnypto4ka/Weather-Widget-OnClass.git"
+  },
+  "keywords": [
+    "weather-widget"
+  ],
+  "author": "Sovereign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnypto4ka/Weather-Widget-OnClass/issues"
+  },
+  "homepage": "https://github.com/johnypto4ka/Weather-Widget-OnClass#readme",
+  "dependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

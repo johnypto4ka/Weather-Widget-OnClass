@@ -1,5 +1,4 @@
 import { WeatherCurrent } from './weathercurrent.js'
-import './weatherbydays.js'
 import { WeatherByDays } from './weatherbydays.js'
 export {fetchDataPromise}
 
