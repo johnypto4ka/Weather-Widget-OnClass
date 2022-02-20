@@ -1,6 +1,6 @@
 import {
 	fetchDataPromise
-} from './script.js'
+} from './index.js'
 
 class WeatherByDays {
 	key = '61b15b0c0f1865015720e4bc6c0b7d55'

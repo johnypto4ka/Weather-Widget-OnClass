@@ -1,6 +1,6 @@
 import {
 	fetchDataPromise
-} from './script.js'
+} from './index.js'
 
 class WeatherCurrent {
 	key = '61b15b0c0f1865015720e4bc6c0b7d55'
@@ -34,7 +34,7 @@ class WeatherCurrent {
 	<div class="widget-top">
 		<div class="widget-geo">${city}, ${countryCode}</div>
 		<div class="widget-time"> 
-			<div class="time-icon"><img src="icons/clock-regular.svg" alt=""></div>
+			<div class="time-icon"><img src="../icons/clock-regular.svg" alt=""></div>
 			<p>${this.transformDate(date.getHours())}:${this.transformDate(date.getMinutes())}</p>
 		</div>
 	</div>

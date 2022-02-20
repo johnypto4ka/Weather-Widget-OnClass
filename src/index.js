@@ -1,5 +1,5 @@
-/* import { WeatherCurrent } from '../src/weathercurrent.js'
-import { WeatherByDays } from '../src/weatherbydays.js'
+import { WeatherCurrent } from './weathercurrent.js'
+import { WeatherByDays } from './weatherbydays.js'
 export {fetchDataPromise}
 
 function fetchDataPromise (url, method = 'GET') {
@@ -26,4 +26,3 @@ function fetchDataPromise (url, method = 'GET') {
 
 new WeatherCurrent()
 new WeatherByDays()
- */
